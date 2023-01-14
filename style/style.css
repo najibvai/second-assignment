@@ -256,3 +256,24 @@ img {
     margin-top: 24px;
     color: #727272;
 }
+
+.sponsor {
+    margin-top: 10px;
+}
+
+/* Footer Section */
+.last-tex {
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-top: 149px;
+    border-radius: 8px;
+    padding-top: 39px;
+    
+}
+
+.footer-tex {
+    
+    margin-left: 510px;
+}
