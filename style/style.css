@@ -162,3 +162,68 @@ nav ul {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* Body Third Part Style */
+
+.third-body-summary {
+    margin-left: 240px;
+}
+
+.third-body-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.third-body-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experience-details {
+    display: flex;
+    gap: 124px;
+    margin-left: 90px;
+    margin-top: 100px;
+    
+
+}
+
+.experienced {
+    width: 241.83px;
+    height: 241.83px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+
+}
+
+.experience-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 7px;
+    margin-left: 86px;
+}
+.experience-title-a{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.experience-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 0px;
+    margin-left: 46px;
+}
+.experience-description-a{
+    margin-left: 80px;
+}
+.experienced, img{
+    margin-top: 45px;
+    margin-left: 90px;
+}
