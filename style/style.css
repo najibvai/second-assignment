@@ -88,6 +88,7 @@ nav ul {
 .body-first-part div{
     width: 50%;
 }
+
 .img-grid-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -336,34 +337,8 @@ img {
     padding: 20px 0;
 }
 
-/* Extra Part For Me */
-/* .title {
-    background-color: #4431f1;
-    height: 100px;
-    width: 600px;
-    margin-left: 700px;
-    margin-top: 150px;
-    border-radius: 20px;
-}
+/* Newslatter Part */
 
-.assignment-title {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 50px;
-    padding-top: 15px;
-    color: #FFFFFF;
-}
-
-.assignment-description {
-    text-align: center;
-    margin: 30px 300px;
-    font-size: 40px;
-    color: #000000;
-}
-
-.color {
-    color: red;
-} */
 .newslatter{
     max-width: 80%;
     display: flex;
@@ -376,9 +351,23 @@ img {
     
 }
 .newslatter-form{
-    /* width: 100%;  */
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     margin: auto;
     text-align: center;
+} 
+
+
+
+@media screen and (max-width:682px) {
+    .img-grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+    }
+    .img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
