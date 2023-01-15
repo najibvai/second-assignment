@@ -12,7 +12,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 250px;
+    margin: 0 60px;
 }
 
 nav li {
@@ -32,14 +32,20 @@ nav ul {
 
 /* Banner Part */
 .banner {
-    margin: 0 139px;
+    /* margin: 0 139px; */
+}
+.banner-img{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .banner-title {
     text-align: center;
     font-weight: 700;
     font-size: 64px;
-    margin-top: 205px;
+    /* margin-top: 205px; */
     color: #131313;
 }
 
@@ -48,20 +54,24 @@ nav ul {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    margin-top: ;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .banner-btn {
     color: #FFFFFF;
-    margin-left: 720px;
-    margin-bottom: 30px;
-    margin-top: ;
     border: 0;
     border-radius: 8px;
     background-color: #FF900E;
     font-weight: 600;
     font-size: 20px;
     padding: 20px 24px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+
+    
 }
 
 .banner img {
@@ -72,7 +82,20 @@ nav ul {
 .body-first-part {
     display: flex;
     align-items: center;
-    margin: 85px 300px;
+    padding: 5px 150px;
+    
+}
+.body-first-part div{
+    width: 50%;
+}
+.img-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.img-grid-container img{
+    width: 252px;
+    height: 252px;
 }
 
 .img {
@@ -199,8 +222,7 @@ nav ul {
 
 .experience-details {
     display: flex;
-    gap: 124px;
-    margin-left: 90px;
+    justify-content: space-evenly;
     margin-top: 100px;
 
 
@@ -214,7 +236,10 @@ nav ul {
     border: 1px solid #FF900E;
     border-radius: 10px;
     transition: width 1s, height 1s;
-
+}
+.experienced img{
+    display: flex;
+    margin: 20px auto;
 }
 
 .experienced:hover {
@@ -253,59 +278,66 @@ nav ul {
     color: #727272;
 }
 
-.experienced,
+.experienced 
 img {
     margin-top: 45px;
-    margin-left: 90px;
 }
 
 /* Last section Style */
 .last-section {
-    display: grid;
-    justify-content: center;
+    max-width: 90%;
+    margin: auto;
 }
 
 .last-section-details {
     margin-top: 180px;
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
 }
 
 .last-section-title {
     font-weight: 700;
     font-size: 45px;
-    margin-left: 597px;
+    margin-top: 150px;
+    
 }
 
 .last-section-description {
     font-weight: 400;
     font-size: 16px;
-    margin-left: 389px;
     margin-top: 24px;
     color: #727272;
 }
 
 .sponsor {
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 /* Footer Section */
 .last-tex {
     background-color: #FFF4E7;
-    width: 1440px;
-    height: 100px;
-    margin-left: 240px;
+    max-width: 80%;
     margin-top: 149px;
     border-radius: 8px;
-    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
 }
 
 .footer-tex {
-
-    margin-left: 510px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 /* Extra Part For Me */
-.title {
+/* .title {
     background-color: #4431f1;
     height: 100px;
     width: 600px;
@@ -331,4 +363,22 @@ img {
 
 .color {
     color: red;
+} */
+.newslatter{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ddd;
+    border-radius: 10px;
+    
+}
+.newslatter-form{
+    /* width: 100%;  */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
 }
