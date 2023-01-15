@@ -179,7 +179,7 @@ nav ul {
     text-align: center;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 65px;
+    /* font-size: 65px; */
     width: 342px;
     height: 200px;
     background: #FF900E;
@@ -188,6 +188,11 @@ nav ul {
     margin-left: 600px;
     margin-top: -165px;
 }
+.second-body-btn span:first-child{
+    font-size: 65px;
+}
+
+
 
 .second-body-btn-tex {
     font-weight: 500;
