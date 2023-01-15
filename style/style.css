@@ -32,7 +32,7 @@ nav ul {
 
 /* Banner Part */
 .banner {
-    margin: 0 239px;
+    margin: 0 139px;
 }
 
 .banner-title {
@@ -53,8 +53,9 @@ nav ul {
 
 .banner-btn {
     color: #FFFFFF;
-    margin-left: 620px;
+    margin-left: 720px;
     margin-bottom: 30px;
+    margin-top: ;
     border: 0;
     border-radius: 8px;
     background-color: #FF900E;
@@ -117,9 +118,17 @@ nav ul {
 }
 
 /* Body Second Part */
+.second-part-container {
+
+    margin: 130px 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.future-btn {}
+
 .body-second-part {
     display: flex;
-    margin: 130px 240px;
     gap: 54px;
 }
 
@@ -145,12 +154,20 @@ nav ul {
 .second-body-btn {
     text-align: center;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
     width: 342px;
     height: 200px;
     background: #FF900E;
     border: 0;
     border-radius: 8px;
-    margin-left: 880px;
+    margin-left: 600px;
+    margin-top: -165px;
+}
+
+.second-body-btn-tex {
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .btn-tex {
@@ -199,7 +216,8 @@ nav ul {
     transition: width 1s, height 1s;
 
 }
-.experienced:hover{
+
+.experienced:hover {
     width: 260px;
     height: 260px;
 }
@@ -278,15 +296,16 @@ img {
     margin-top: 149px;
     border-radius: 8px;
     padding-top: 39px;
-    
+
 }
 
 .footer-tex {
-    
+
     margin-left: 510px;
 }
+
 /* Extra Part For Me */
-.title{
+.title {
     background-color: #4431f1;
     height: 100px;
     width: 600px;
@@ -294,19 +313,22 @@ img {
     margin-top: 150px;
     border-radius: 20px;
 }
-.assignment-title{
+
+.assignment-title {
     text-align: center;
     font-size: 50px;
     margin-top: 50px;
     padding-top: 15px;
     color: #FFFFFF;
 }
-.assignment-description{
+
+.assignment-description {
     text-align: center;
     margin: 30px 300px;
     font-size: 40px;
     color: #000000;
 }
-.color{
+
+.color {
     color: red;
 }
